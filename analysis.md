@@ -85,3 +85,8 @@ Dify是开源LLM应用开发平台，提供：
 - Flask: ~3.1.0
 - SQLAlchemy: ~2.0.29
 - Celery: ~5.4.0 
+
+
+pnpm start
+poetry run flask run --host 0.0.0.0 --port=5001 --debug
+
