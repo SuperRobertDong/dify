@@ -76,15 +76,14 @@ This document provides documentation for all extensions used in the Dify Flask a
 <details>
 <summary>3. ext_celery.py</summary>
 
-- Integrates Celery for asynchronous task processing
-- Handles background jobs and task queues
+- 设置Celery组件
 </details>
 
 <details>
 <summary>4. ext_code_based_extension.py</summary>
 
-- Base class for code-based extensions
-- Provides common functionality for other extensions
+- 注册文件夹/core/moderation下面的所有插件
+- 注册文件夹/core/external_data_tool下面的所有插件
 </details>
 
 <details>
