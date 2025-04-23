@@ -89,22 +89,19 @@ This document provides documentation for all extensions used in the Dify Flask a
 <details>
 <summary>5. ext_commands.py</summary>
 
-- Defines custom Flask CLI commands
-- Provides utility commands for application management
+- 添加文件/api/commands.py中定义的app的命令
 </details>
 
 <details>
 <summary>6. ext_compress.py</summary>
 
-- Handles response compression
-- Optimizes network transfer by compressing responses
+- 压缩Flask的Http Reponse的消息的压缩
 </details>
 
 <details>
 <summary>7. ext_database.py</summary>
 
-- Manages database connections and configurations
-- Handles database initialization and connection pooling
+- 初始化数据库
 </details>
 
 <details>
